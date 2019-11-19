@@ -105,7 +105,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Berlin Sans FB Demi" size="18" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Lab&amp;Computer Searching Egine"/>
+        <Property name="text" type="java.lang.String" value="Lab&amp;Computer Searching Engine"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
@@ -189,7 +189,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="cancelbtn">
       <Properties>
-        <Property name="text" type="java.lang.String" value="BACK"/>
+        <Property name="text" type="java.lang.String" value="EXIT"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelbtnActionPerformed"/>
