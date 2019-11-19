@@ -9,6 +9,8 @@ package das.assignment;
  *
  * @author DELL
  */
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.util.*;
 import javax.swing.*;
 
@@ -17,6 +19,8 @@ public class Login implements LoginADT {
     private String username;
     private String password;
     private String user;
+    private String[] records;
+    private static int flag;
 
     Login() {
 
@@ -28,32 +32,48 @@ public class Login implements LoginADT {
         this.user = user;
     }
 
-    public LoginADT loginn(String username, String password, String cmb) {
-        Login login = new Login();
+    public void loginn(String username, String password, String cmb) {
+        //Login login = new Login();
         Database database = new Database();
         database.getAllData();
         switch (cmb) {
             case "Student":
                 try {
-                    ArrayList<Student> studList = database.getStudent();
-                    int size = studList.size();
-                    for (int i = 0; i < studList.size(); i++) {
-                        if (studList.get(i).getStudentUsn().compareTo(username) == 0 && studList.get(i).getStudentPwd().compareTo(password) == 0) {
-                            //new Frame_Student_Profile(studList.get(i).getStudentID(),studList.get(i).getStudentName(),studList.get(i).getStudentIC(),studList.get(i).getStudentPhone(),studList.get(i).getStudentAddress(),studList.get(i).getStudentEmail()).setVisible(true);                           
-                            try {
+                    //ArrayList<Student> studList = database.getStudent();
+                    //int size = studList.size();
+//                    BufferedReader user = new BufferedReader(new FileReader("user.txt"));
+//                    String line;
+//                    while ((line = user.readLine()) != null) {
+//                        records = line.split(",");
+//                        if (username.contains(records[0]) && password.contains(records[1])) {
+//                            //new Frame_Student_Profile(studList.get(i).getStudentID(),studList.get(i).getStudentName(),studList.get(i).getStudentIC(),studList.get(i).getStudentPhone(),studList.get(i).getStudentAddress(),studList.get(i).getStudentEmail()).setVisible(true);                           
+//                            
+//                                JOptionPane.showMessageDialog(null, "Student Login Success!");
+//                                break;
+//
+//                            
+//                        } else {
+//
+//                            JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
+//                            
+//                        }
+//                    }
+//                    user.close();
 
-                                JOptionPane.showMessageDialog(null, "Student Login Success!");
-                                break;
-
-                            } catch (Exception e) {
-                                JOptionPane.showMessageDialog(null, "Insert Error, " + e);
-                            }
-
-                        } else {
-                            JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
+                    BufferedReader user = new BufferedReader(new FileReader("user.txt"));
+                    String line;
+                    while ((line = user.readLine()) != null) {
+                        records = line.split(",");
+                        if (username.equals(records[0]) && password.equals(records[1])) {
+                            flag = 1;
+                            //JOptionPane.showMessageDialog(null, "Student Login Success!");
                             break;
+                        } else {
+                            flag = 3;
+                            //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
                         }
                     }
+                    user.close();
 
                 } catch (Exception e) {
                     JOptionPane.showMessageDialog(null, "Login Error, " + e);
@@ -68,7 +88,8 @@ public class Login implements LoginADT {
                         String adminPsw = adminList.get(i).getStaffPwd();
                         if (adminUser.compareTo(username) == 0 && adminPsw.compareTo(password) == 0) {
                             try {
-                                JOptionPane.showMessageDialog(null, "Admin Login Success!");
+                                flag = 2;
+                                //JOptionPane.showMessageDialog(null, "Admin Login Success!");
                                 break;
 
                             } catch (Exception e) {
@@ -76,8 +97,8 @@ public class Login implements LoginADT {
                             }
 
                         } else {
-                            JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
-                            break;
+                            flag = 3;
+                            //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
                         }
                     }
 
@@ -90,7 +111,7 @@ public class Login implements LoginADT {
                 break;
         }
 
-        return login;
+        //return login;
     }
 
     public String getUser() {
@@ -113,4 +134,7 @@ public class Login implements LoginADT {
         this.password = password;
     }
 
+    public int getFlag() {
+        return flag;
+    }
 }

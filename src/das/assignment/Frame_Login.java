@@ -52,7 +52,7 @@ public class Frame_Login extends javax.swing.JFrame {
         setTitle("Login");
 
         jLabel2.setFont(new java.awt.Font("Berlin Sans FB Demi", 1, 18)); // NOI18N
-        jLabel2.setText("Lab&Computer Searching Egine");
+        jLabel2.setText("Lab&Computer Searching Engine");
 
         jLabel1.setFont(new java.awt.Font("Berlin Sans FB Demi", 1, 18)); // NOI18N
         jLabel1.setText("Username: ");
@@ -98,7 +98,7 @@ public class Frame_Login extends javax.swing.JFrame {
             }
         });
 
-        cancelbtn.setText("BACK");
+        cancelbtn.setText("EXIT");
         cancelbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cancelbtnActionPerformed(evt);
@@ -109,32 +109,33 @@ public class Frame_Login extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                    .addGap(113, 113, 113)
-                    .addComponent(jLabel2)
-                    .addContainerGap(142, Short.MAX_VALUE))
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(56, 56, 56)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(rstbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(cancelbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(signUpbtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jScrollPane1)
-                                .addComponent(passwordtxt)
-                                .addComponent(usertype, javax.swing.GroupLayout.PREFERRED_SIZE, 303, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addComponent(lgnbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                    .addComponent(viewpsw)))
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(113, 113, 113)
+                        .addComponent(jLabel2))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(56, 56, 56)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(rstbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(cancelbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(signUpbtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jScrollPane1)
+                                    .addComponent(passwordtxt)
+                                    .addComponent(usertype, javax.swing.GroupLayout.PREFERRED_SIZE, 303, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(lgnbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(viewpsw)))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -174,7 +175,7 @@ public class Frame_Login extends javax.swing.JFrame {
     }//GEN-LAST:event_rstbtnActionPerformed
 
     private void cancelbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelbtnActionPerformed
-        int choice = JOptionPane.showConfirmDialog(null, "Are you sure?", "Back", JOptionPane.WARNING_MESSAGE);
+        int choice = JOptionPane.showConfirmDialog(null, "Are you sure?", "Exit", JOptionPane.WARNING_MESSAGE);
         if (choice == JOptionPane.YES_OPTION) {
             this.setVisible(false);
         } else {
@@ -194,32 +195,38 @@ public class Frame_Login extends javax.swing.JFrame {
         String username = usernametxt.getText();
         String password = String.valueOf(passwordtxt.getPassword());
         String cmb = usertype.getSelectedItem().toString();
-        
+
         LoginADT lg = new Login();
-        LoginADT login = lg.loginn(username, password, cmb);
-        
-        
-        
-        /*int flag = lg.loginn(usnm, psww, cmbo);
+        lg.loginn(username, password, cmb);
+        int flag = lg.getFlag();
+
+        /*int flag = lg.loginn(usnm, psww, cmbo);*/
         switch (flag) {
             case 1:
-                this.setVisible(false);
+                //this.setVisible(false);
                 JOptionPane.showMessageDialog(null, "Student Login Success!");
+                Frame_Student fs = new Frame_Student();
+                fs.setVisible(true);
+                this.setVisible(false);
                 break;
             case 2:
-                this.setVisible(false);
                 JOptionPane.showMessageDialog(null, "Admin Login Success!");
+                Frame_Admin faa = new Frame_Admin();
+                faa.setVisible(true);
+                this.setVisible(false);
                 break;
             case 3:
                 JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
                 rst();
                 break;
-        }*/
+        }
 
     }//GEN-LAST:event_lgnbtnActionPerformed
 
     private void signUpbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_signUpbtnActionPerformed
-       
+        Frame_Register register = new Frame_Register();
+        register.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_signUpbtnActionPerformed
 
     private void usertypeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usertypeActionPerformed
