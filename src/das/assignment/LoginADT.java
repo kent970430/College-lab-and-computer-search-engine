@@ -15,6 +15,14 @@ public interface LoginADT {
     String getPassword();
     void setPassword(String password);
     
-    LoginADT loginn(String username, String password, String cmb);
+    public void loginn(String username, String password, String cmb);
+    
+    public int getFlag();
+    /*
+    Description: return the flag
+    Precondition: login function must return flag
+    Post condition: flag updated
+    Return: the flag
+    */
     
 }
