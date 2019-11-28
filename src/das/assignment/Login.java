@@ -107,6 +107,7 @@ public class Login implements LoginADT {
                             //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
                         } else if (adminUser.equals(username) && !adminPsw.equals(password)) {
                             flag = 4;
+                            //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
                         } else if (!adminUser.equals(username) && !adminPsw.equals(password)) {
                             flag = 5;
                         } else {
