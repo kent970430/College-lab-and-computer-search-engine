@@ -1,2 +1,4 @@
-B103,B,1,Java and networking,20
+B103,A,1,Java and networking,20
 
+
+B106,B,1,Data Structure ,25

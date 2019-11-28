@@ -216,7 +216,19 @@ public class Frame_Login extends javax.swing.JFrame {
                 this.setVisible(false);
                 break;
             case 3:
-                JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
+                JOptionPane.showMessageDialog(null, "Login Failed, please fill in the correct username!");
+                rst();
+                break;
+	    case 4:
+                JOptionPane.showMessageDialog(null, "Login Failed, please fill in the correct password!");
+                rst();
+                break;
+	    case 5:
+                JOptionPane.showMessageDialog(null, "Login Failed, please fill in the correct usernanme and password!");
+                rst();
+                break;
+	    case 6:
+                JOptionPane.showMessageDialog(null, "Login Failed, please choose the correct user type!");
                 rst();
                 break;
         }
