@@ -68,9 +68,15 @@ public class Login implements LoginADT {
                             flag = 1;
                             //JOptionPane.showMessageDialog(null, "Student Login Success!");
                             break;
-                        } else {
+                        } else if (!username.equals(records[0]) && password.equals(records[1])) {
                             flag = 3;
                             //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
+                        } else if (username.equals(records[0]) && !password.equals(records[1])) {
+                            flag = 4;
+                        } else if (username.equals(records[0]) && !password.equals(records[1])) {
+                            flag = 5;
+                        } else {
+                            flag = 6;
                         }
                     }
                     user.close();
@@ -86,7 +92,7 @@ public class Login implements LoginADT {
                     for (int i = 0; i < size; i++) {
                         String adminUser = adminList.get(i).getStaffUsn();
                         String adminPsw = adminList.get(i).getStaffPwd();
-                        if (adminUser.compareTo(username) == 0 && adminPsw.compareTo(password) == 0) {
+                        if (adminUser.equals(username) && adminPsw.equals(password)) {
                             try {
                                 flag = 2;
                                 //JOptionPane.showMessageDialog(null, "Admin Login Success!");
@@ -96,9 +102,15 @@ public class Login implements LoginADT {
                                 JOptionPane.showMessageDialog(null, "Insert Error, " + e);
                             }
 
-                        } else {
+                        } else if (!adminUser.equals(username) && adminPsw.equals(password)) {
                             flag = 3;
                             //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
+                        } else if (adminUser.equals(username) && !adminPsw.equals(password)) {
+                            flag = 4;
+                        } else if (!adminUser.equals(username) && !adminPsw.equals(password)) {
+                            flag = 5;
+                        } else {
+                            flag = 6;
                         }
                     }
 
