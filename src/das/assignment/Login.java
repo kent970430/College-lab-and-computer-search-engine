@@ -113,6 +113,7 @@ public class Login implements LoginADT {
                             //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
                         } else {
                             flag = 6;
+                            //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
                         }
                     }
 
