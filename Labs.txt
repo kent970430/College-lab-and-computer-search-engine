@@ -1,4 +1,6 @@
-B103,A,1,Java and networking,20
-
-
-B106,B,1,Data Structure ,25
+B101,B,1,Networking,20
+B102,B,1,Web Application,20
+B103,B,1,Java and networking,20
+B201,B,2,Data Structure,20
+B202,B,2,Gaming,20
+B203,B,2,Networking,20

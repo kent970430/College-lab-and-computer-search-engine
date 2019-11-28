@@ -70,11 +70,11 @@ public class Login implements LoginADT {
                             break;
                         } else if (!username.equals(records[0]) && password.equals(records[1])) {
                             flag = 3;
+                            break;
                             //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
                         } else if (username.equals(records[0]) && !password.equals(records[1])) {
                             flag = 4;
-                        } else if (username.equals(records[0]) && !password.equals(records[1])) {
-                            flag = 5;
+                            break;
                         } else {
                             flag = 6;
                         }
@@ -104,12 +104,11 @@ public class Login implements LoginADT {
 
                         } else if (!adminUser.equals(username) && adminPsw.equals(password)) {
                             flag = 3;
+                            break;
                             //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
                         } else if (adminUser.equals(username) && !adminPsw.equals(password)) {
                             flag = 4;
-                            //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
-                        } else if (!adminUser.equals(username) && !adminPsw.equals(password)) {
-                            flag = 5;
+                            break;
                             //JOptionPane.showMessageDialog(null, "Login Failed, please try again!");
                         } else {
                             flag = 6;
