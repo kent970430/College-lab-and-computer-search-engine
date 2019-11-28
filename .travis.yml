@@ -1,0 +1,6 @@
+language:java
+sudo : required
+addons：
+  apt:
+    packages:
+      ant
