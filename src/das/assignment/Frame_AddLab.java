@@ -198,6 +198,7 @@ public class Frame_AddLab extends javax.swing.JFrame {
     private void shwbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_shwbtnActionPerformed
         JOptionPane.showMessageDialog(null, formatList());    }//GEN-LAST:event_shwbtnActionPerformed
 
+       /*add button*/
     private void addbtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addbtn1ActionPerformed
         Frame_Labb fl = new Frame_Labb();
         fl.setVisible(true);
