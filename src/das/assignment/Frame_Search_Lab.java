@@ -266,6 +266,7 @@ public class Frame_Search_Lab extends javax.swing.JFrame {
 
     }//GEN-LAST:event_showbtnActionPerformed
 
+       /* back button*/
     private void backbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backbtnActionPerformed
         Frame_Labb fl = new Frame_Labb();
         fl.setVisible(true);
