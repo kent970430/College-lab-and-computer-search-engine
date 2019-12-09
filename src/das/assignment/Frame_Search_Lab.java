@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author DELL
+ * @author DELL latest version
  */
 public class Frame_Search_Lab extends javax.swing.JFrame {
 
