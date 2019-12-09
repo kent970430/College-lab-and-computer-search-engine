@@ -1,20 +1,21 @@
-2041,Power Off
-2042,Using
-2043,Using
-2044,Power Off
-2045,Using
-2046,Using
-2047,Using
-2048,Using
-2049,Power Off
-2050,Using
-2051,Power Off
-2052,Using
-2053,Power Off
-2054,Using
-2055,Using
-2056,Using
-2057,Power Off
-2058,Using
-2059,Using
-2060,Using
+2041,Power Off,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2041,Power Off,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2042,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+2043,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2044,Power Off,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2045,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2046,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2047,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2048,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2049,Power Off,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2050,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2051,Power Off,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2052,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+2053,Power Off,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2054,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2055,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+2056,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2057,Power Off,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2058,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2059,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2060,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC

@@ -1,20 +1,21 @@
-2001,Using
-2002,Using
-2003,Using
-2004,Power Off
-2005,Using
-2006,Using
-2007,Power Off
-2008,Using
-2009,Power Off
-2010,Using
-2011,Using
-2012,Using
-2013,Power Off
-2014,Power Off
-2015,Power Off
-2016,Power Off
-2017,Power Off
-2018,Using
-2019,Using
-2020,Using
+2001,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2001,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2002,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2003,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+2004,Power Off,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2005,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2006,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+2007,Power Off,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2008,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2009,Power Off,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2010,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2011,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2012,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2013,Power Off,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2014,Power Off,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2015,Power Off,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+2016,Power Off,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2017,Power Off,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2018,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2019,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2020,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC

@@ -1,20 +1,21 @@
-1021,Using
-1022,Using
-1023,Using
-1024,Using
-1025,Using
-1026,Using
-1027,Using
-1028,Using
-1029,Using
-1030,Using
-1031,Using
-1032,Using
-1033,Using
-1034,Using
-1035,Using
-1036,Using
-1037,Using
-1038,Using
-1039,Using
-1040,Using
+1021,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+1021,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+1022,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+1023,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+1024,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+1025,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+1026,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+1027,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+1028,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+1029,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+1030,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+1031,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+1032,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+1033,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+1034,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+1035,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+1036,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+1037,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+1038,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+1039,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+1040,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC

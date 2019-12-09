@@ -1,20 +1,21 @@
-2021,Using
-2022,Using
-2023,Using
-2024,Power Off
-2025,Using
-2026,Using
-2027,Using
-2028,Using
-2029,Using
-2030,Using
-2031,Power Off
-2032,Using
-2033,Using
-2034,Using
-2035,Using
-2036,Using
-2037,Power Off
-2038,Using
-2039,Using
-2040,Using
+2021,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2021,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2022,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2023,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+2024,Power Off,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2025,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2026,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2027,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2028,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2029,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2030,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+2031,Power Off,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2032,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2033,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2034,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2035,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2036,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+2037,Power Off,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+2038,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+2039,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+2040,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC

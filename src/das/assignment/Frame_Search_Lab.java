@@ -337,14 +337,17 @@ public class Frame_Search_Lab extends javax.swing.JFrame {
         String nameee = labIDtxt.getText() + ".txt";
         DefaultTableModel table = new DefaultTableModel(new String[]{"Computer ID", "Status"}, 0);
         computertbl.setModel(table);
+        Object[] row = new Object[2];
         table.setRowCount(0);
         try {
             BufferedReader compp = new BufferedReader(new FileReader(nameee));
             line = compp.readLine();
-            while (line != null) {
+            while ((line = compp.readLine()) != null) {
                 String[] field = line.split(",");
-                table.addRow(field);
-                line = compp.readLine();
+                row[0] = field[1];
+                row[1] = field[2];
+                table.addRow(row);
+                //line = compp.readLine();
             }
         } catch (IOException e) {
             e.printStackTrace();
