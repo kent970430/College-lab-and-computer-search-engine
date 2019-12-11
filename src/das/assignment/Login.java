@@ -151,4 +151,6 @@ public class Login implements LoginADT {
     public int getFlag() {
         return flag;
     }
+    
+    // public
 }
