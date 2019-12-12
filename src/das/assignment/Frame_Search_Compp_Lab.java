@@ -5,7 +5,6 @@
  */
 package das.assignment;
 
-import static das.assignment.Frame_Search_Lab.isInteger;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -275,7 +274,7 @@ public class Frame_Search_Compp_Lab extends javax.swing.JFrame {
         String search_name = labIDtxt.getText();
         boolean inttt = isInteger(search_name);
         int flagg = 0;
-        Pattern regex = Pattern.compile("[$&+,:;=\\\\?@#|/'<>.^*()%!-]");
+
         try {
             BufferedReader lab = new BufferedReader(new FileReader("Labs.txt"));
             while ((line = lab.readLine()) != null) {
@@ -285,7 +284,7 @@ public class Frame_Search_Compp_Lab extends javax.swing.JFrame {
                 if (labid.equals(search_name)) { //correct ID
                     flagg = 1;
                     break;
-                } else if (regex.matcher(labIDtxt.getText()).find()) { //special char
+                } else if (specialChar(search_name)) { //special char
                     flagg = 3;
                     break;
                 } else if (inttt) { //integer
@@ -301,7 +300,8 @@ public class Frame_Search_Compp_Lab extends javax.swing.JFrame {
                     show_all_compp();
                     break;
                 case 2:
-                    if (labIDtxt.getText().length() >= 1) { //false
+                    int count = inputNum(labIDtxt.getText());
+                    if ( count >= 1) { //false
                         JOptionPane.showMessageDialog(null, "The lab does not exist", "Please try again", JOptionPane.ERROR_MESSAGE);
                         rst();
                     } else { //blank
@@ -434,6 +434,35 @@ public class Frame_Search_Compp_Lab extends javax.swing.JFrame {
         versiontxt.setText(null);
         manufacturertxt.setText(null);
         systemtxt.setText(null);
+    }
+
+    public static boolean specialChar(String input) {
+        boolean special = false;
+        Pattern regex = Pattern.compile("[$&+,:;=\\\\?@#|/'<>.^*()%!-]");
+        if (regex.matcher(input).find()) {
+            special = true;
+        } else {
+            return false;
+        }
+        return special;
+    }
+
+    public static boolean isInteger(String s) {
+        boolean isValidInteger = false;
+        try {
+            Integer.parseInt(s);
+            // s is a valid integer
+            isValidInteger = true;
+        } catch (NumberFormatException ex) {
+            // s is not an integer
+        }
+        return isValidInteger;
+    }
+    
+    public int inputNum(String input){
+        int count;
+        count = input.length();
+        return count;
     }
 
 

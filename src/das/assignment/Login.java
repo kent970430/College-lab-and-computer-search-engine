@@ -152,5 +152,5 @@ public class Login implements LoginADT {
         return flag;
     }
     
-    // public
+    // public int
 }

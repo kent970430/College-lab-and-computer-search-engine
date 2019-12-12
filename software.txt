@@ -1,0 +1,4 @@
+Andriod Studio,B101,B,1,Networking,20
+Visual Basic,B102,B,1,Web Application,20
+Netbean,B103,B,1,Java and networking,20
+Packet Tracer,B201,B,2,Data Structure,20

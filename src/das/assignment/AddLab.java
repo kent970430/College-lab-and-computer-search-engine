@@ -19,6 +19,4 @@ public class AddLab {
         fal.setVisible(true);
     }
     
-    //pu
-    
 }
