@@ -1,40 +1,40 @@
-B101,1001,Power Off,Intel Core i7-970,32 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
-B101,1002,Using,Intel Core i7-39xx,32 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
-B101,1003,Using,Intel Core i7-970,32 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
-B101,1004,Power Off,Intel Core i7-980,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
-B101,1005,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
-B101,1006,Using,Intel Core i7-6900K,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
-B101,1007,Using,Intel Core i7-6900K,32 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
-B101,1008,Using,Intel Core i7-970,32 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
-B101,1009,Power Off,Intel Core i7-970,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B101,1010,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B101,1011,Power Off,Intel Core i7-7740X,16 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B101,1012,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
-B101,1013,Power Off,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
-B101,1014,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B101,1015,Using,Intel Core i7-7820X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B101,1016,Using,Intel Core i7-7820X,32 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
-B101,1017,Power Off,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
-B101,1018,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B101,1019,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B101,1020,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B102,1021,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B102,1022,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
-B102,1023,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
-B102,1024,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
-B102,1025,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B102,1026,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
-B102,1027,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
-B102,1028,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
-B102,1029,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B102,1030,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
-B102,1031,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
-B102,1032,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
-B102,1033,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B102,1034,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
-B102,1035,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
-B102,1036,Using,Intel Core i7-980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
-B102,1037,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
-B102,1038,Using,Intel Core i7-7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
-B102,1039,Using,Intel Core i7-970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
-B102,1040,Using,Intel Core i7-7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B101,1001,Power Off,Intel Core i7 970,32 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+B101,1002,Using,Intel Core i7 39xx,32 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+B101,1003,Using,Intel Core i7 970,32 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+B101,1004,Power Off,Intel Core i7 980,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+B101,1005,Using,Intel Core i7 980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+B101,1006,Using,Intel Core i7 6900K,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+B101,1007,Using,Intel Core i7 6900K,32 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+B101,1008,Using,Intel Core i7 970,32 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+B101,1009,Power Off,Intel Core i7 970,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B101,1010,Using,Intel Core i7 970,16 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B101,1011,Power Off,Intel Core i7 7740X,16 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B101,1012,Using,Intel Core i7 970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+B101,1013,Power Off,Intel Core i7 7740X,32 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+B101,1014,Using,Intel Core i7 7820X,16 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B101,1015,Using,Intel Core i7 7820X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B101,1016,Using,Intel Core i7 7820X,32 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+B101,1017,Power Off,Intel Core i7 7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+B101,1018,Using,Intel Core i7 7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B101,1019,Using,Intel Core i7 7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B101,1020,Using,Intel Core i7 7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B102,1021,Using,Intel Core i7 7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B102,1022,Using,Intel Core i7 970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+B102,1023,Using,Intel Core i7 980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+B102,1024,Using,Intel Core i7 7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+B102,1025,Using,Intel Core i7 7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B102,1026,Using,Intel Core i7 7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+B102,1027,Using,Intel Core i7 980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+B102,1028,Using,Intel Core i7 970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+B102,1029,Using,Intel Core i7 7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B102,1030,Using,Intel Core i7 7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+B102,1031,Using,Intel Core i7 970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+B102,1032,Using,Intel Core i7 980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+B102,1033,Using,Intel Core i7 7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B102,1034,Using,Intel Core i7 7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+B102,1035,Using,Intel Core i7 970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+B102,1036,Using,Intel Core i7 980X,16 GigaByte,Windows 10 Education,1909,Microsoft Corporation,x64-based PC
+B102,1037,Using,Intel Core i7 7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC
+B102,1038,Using,Intel Core i7 7820X,16 GigaByte,Windows 10 Education,1809,Microsoft Corporation,x64-based PC
+B102,1039,Using,Intel Core i7 970,16 GigaByte,Windows 10 Education,1709,Microsoft Corporation,x64-based PC
+B102,1040,Using,Intel Core i7 7740X,32 GigaByte,Windows 10 Education,1903,Microsoft Corporation,x64-based PC

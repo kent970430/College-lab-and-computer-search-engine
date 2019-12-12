@@ -101,7 +101,7 @@ public class Frame_Student extends javax.swing.JFrame {
     }//GEN-LAST:event_btnLogOutActionPerformed
 
     private void btnSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSearchActionPerformed
-        Frame_SearchHardware fcc = new Frame_SearchHardware();
+        Frame_SearchSpecification fcc = new Frame_SearchSpecification();
         this.setVisible(false);
         fcc.setVisible(true);
     }//GEN-LAST:event_btnSearchActionPerformed

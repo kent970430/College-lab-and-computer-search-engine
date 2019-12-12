@@ -39,7 +39,6 @@ public class Frame_Search_Compp_LabTest {
         assertFalse(fscl.specialChar(""));
         assertFalse(fscl.specialChar("12345"));
         assertFalse(fscl.specialChar("testing"));
-        System.out.println("Success! Word  keyed in is not special character!\n");
     }
 
     /**
@@ -48,10 +47,9 @@ public class Frame_Search_Compp_LabTest {
     @Test
     public void testIsInteger() {
         System.out.println("Check Integer");
-        System.out.println("==================================");
+        System.out.println("==================================\n");
         assertTrue(fscl.isInteger("2"));
         assertFalse(fscl.isInteger("test"));
-        System.out.println("Success! Word key in is Integer!\n");
     }
 
     /**
@@ -60,10 +58,9 @@ public class Frame_Search_Compp_LabTest {
     @Test
     public void testInputNum() {
         System.out.println("Input Length");
-        System.out.println("==================================");
+        System.out.println("==================================\n");
         assertEquals(5,fscl.inputNum("hello"));
         assertEquals(4,fscl.inputNum("wuek"));
-        System.out.println("Success! It showed the numbers of words!\n");
     }
     
 }
