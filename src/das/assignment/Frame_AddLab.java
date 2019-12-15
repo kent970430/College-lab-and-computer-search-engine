@@ -7,6 +7,7 @@ package das.assignment;
 
 import java.io.*;
 import java.util.*;
+import java.util.regex.Pattern;
 import javax.swing.JOptionPane;
 
 /**
@@ -19,6 +20,7 @@ public class Frame_AddLab extends javax.swing.JFrame {
      * Creates new form Frame_AddLab
      */
     private List<Lab> labList = new ArrayList<>();
+    int flagg;
 
     public Frame_AddLab() {
         initComponents();
@@ -166,12 +168,47 @@ public class Frame_AddLab extends javax.swing.JFrame {
 
 
     private void addbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addbtnActionPerformed
+        boolean intttt = isInteger(block.getText());
+        boolean intttttt = isInteger(spec.getText());
+        if (specialChar(labID.getText()) && specialChar(block.getText()) && specialChar(level.getText()) && specialChar(spec.getText()) && specialChar(noofco.getText())) { //special char
+            flagg = 3;
+        } else if (intttt && intttttt) { //integer
+            flagg = 4;
+        } else {
+            flagg = 2;
+        }
+
+        switch (flagg) {
+            case 2:
+                int count = inputNum(labID.getText());
+                int count1 = inputNum(block.getText());
+                int count2 = inputNum(level.getText());
+                int count3 = inputNum(spec.getText());
+                int count4 = inputNum(noofco.getText());
+                if (count == 0 || count1 == 0 || count2 == 0 || count3 == 0 || count4 == 0) {
+                     //blank
+                    JOptionPane.showMessageDialog(null, "There is some text field empty!", "Please try again", JOptionPane.ERROR_MESSAGE);
+                    rst();
+                }
+                break;
+            case 3:
+                JOptionPane.showMessageDialog(null, "Input cannot contain special characters", "Please try again", JOptionPane.ERROR_MESSAGE);
+                rst();
+                break;
+            case 4:
+                JOptionPane.showMessageDialog(null, "Input cannot be Integer", "Please try again", JOptionPane.ERROR_MESSAGE);
+                rst();
+                break;
+            default:
+                break;
+        }
+
         String labid = labID.getText();
         String blockk = block.getText();
         String levell = level.getText();
         String specc = spec.getText();
         int mono = Integer.parseInt(noofco.getText());
-        add(labid,blockk,levell,specc,mono);
+        add(labid, blockk, levell, specc, mono);
     }//GEN-LAST:event_addbtnActionPerformed
 
     private void shwbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_shwbtnActionPerformed
@@ -254,9 +291,38 @@ public class Frame_AddLab extends javax.swing.JFrame {
         }
         return outputStr;
     }
-    
-    public List<Lab> getLab(){
+
+    public List<Lab> getLab() {
         return labList;
+    }
+
+    public static boolean specialChar(String input) {
+        boolean special = false;
+        Pattern regex = Pattern.compile("[$&+,:;=\\\\?@#|/'<>.^*()%!-]");
+        if (regex.matcher(input).find()) {
+            special = true;
+        } else {
+            return false;
+        }
+        return special;
+    }
+
+    public static boolean isInteger(String s) {
+        boolean isValidInteger = false;
+        try {
+            Integer.parseInt(s);
+            // s is a valid integer
+            isValidInteger = true;
+        } catch (NumberFormatException ex) {
+            // s is not an integer
+        }
+        return isValidInteger;
+    }
+
+    public int inputNum(String input) {
+        int count;
+        count = input.length();
+        return count;
     }
 
 

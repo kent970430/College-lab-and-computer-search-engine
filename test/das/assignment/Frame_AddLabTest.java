@@ -39,7 +39,7 @@ public class Frame_AddLabTest {
     @Test
     public void testAdd() throws Exception {
         System.out.println("\nAdd");
-        
+
         Lab lab = new Lab("104", "B", "1", "Data Structure", 25);
         Lab lab1 = new Lab("105", "D", "2", "Networking", 26);
         list.add(lab);
@@ -55,8 +55,39 @@ public class Frame_AddLabTest {
         System.out.println("\nDisplay List");
         Lab lab = new Lab("104", "B", "1", "Web Design", 25);
         list.add(lab);
-        System.out.println(lab);
-        assertEquals("104,B,1,Web Design,25\n",instance.formatList());
+        assertEquals("104,B,1,Web Design,25\n", instance.formatList());
+    }
+
+    /**
+     * Test of specialChar method, of class Frame_AddLab.
+     */
+    @Test
+    public void testSpecialChar() {
+        System.out.println("\nSpecial Character");
+        assertTrue(instance.specialChar("@#$"));
+        assertFalse(instance.specialChar(""));
+        assertFalse(instance.specialChar("12345"));
+        assertFalse(instance.specialChar("testing"));
+    }
+
+    /**
+     * Test of isInteger method, of class Frame_AddLab.
+     */
+    @Test
+    public void testIsInteger() {
+        System.out.println("\nCheck Integer");
+        assertTrue(instance.isInteger("2"));
+        assertFalse(instance.isInteger("test"));
+    }
+
+    /**
+     * Test of inputNum method, of class Frame_AddLab.
+     */
+    @Test
+    public void testInputNum() {
+        System.out.println("\nInput Length");
+        assertEquals(5,instance.inputNum("hello"));
+        assertEquals(4,instance.inputNum("wuek"));
     }
 
 }
