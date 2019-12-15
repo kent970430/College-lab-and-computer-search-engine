@@ -166,39 +166,18 @@ public class Frame_AddLab extends javax.swing.JFrame {
 
 
     private void addbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addbtnActionPerformed
-        try (BufferedWriter laab = new BufferedWriter(new FileWriter("Labs.txt", true))){
-            String labid = labID.getText();
-            String blockk = block.getText();
-            String levell = level.getText();
-            String specc = spec.getText();
-            int mono = Integer.parseInt(noofco.getText());
-            //labuuu.setLabID(labid);
-            //labuuu.setBlock(blockk);
-            //labuuu.setLevel(level.getText());
-            //labuuu.setSpecification(spec.getText());
-            //labuuu.setNumberss(Integer.parseInt(noofco.getText()));
-            Lab lab = new Lab(labid,blockk,levell,specc,mono);
-            labList.add(lab);
-            rst();
-            labID.grabFocus();
-
-            String put = (labid + "," + blockk + "," + levell + "," + specc + "," + mono + "\r\n");
-            laab.write(put);
-            //ooStream.close();
-        } catch (FileNotFoundException ex) {
-            JOptionPane.showMessageDialog(null, "File not found", "ERROR", JOptionPane.ERROR_MESSAGE);
-        } catch (IOException ex) {
-            JOptionPane.showMessageDialog(null, "Cannot save to file", "ERROR", JOptionPane.ERROR_MESSAGE);
-            System.out.print(ex);
-        } catch (Exception ex) {
-            System.out.print(ex);
-        }
+        String labid = labID.getText();
+        String blockk = block.getText();
+        String levell = level.getText();
+        String specc = spec.getText();
+        int mono = Integer.parseInt(noofco.getText());
+        add(labid,blockk,levell,specc,mono);
     }//GEN-LAST:event_addbtnActionPerformed
 
     private void shwbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_shwbtnActionPerformed
         JOptionPane.showMessageDialog(null, formatList());    }//GEN-LAST:event_shwbtnActionPerformed
 
-       /*add button*/
+    /*add button*/
     private void addbtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addbtn1ActionPerformed
         Frame_Labb fl = new Frame_Labb();
         fl.setVisible(true);
@@ -248,13 +227,38 @@ public class Frame_AddLab extends javax.swing.JFrame {
         noofco.setText("");
     }
 
+    public void add(String labid, String blockk, String levell, String specc, int mono) {
+        try (BufferedWriter laab = new BufferedWriter(new FileWriter("Labs.txt", true))) {
+            Lab lab = new Lab(labid, blockk, levell, specc, mono);
+            labList.add(lab);
+            rst();
+            labID.grabFocus();
+
+            String put = (labid + "," + blockk + "," + levell + "," + specc + "," + mono + "\r\n");
+            laab.write(put);
+            //ooStream.close();
+        } catch (FileNotFoundException ex) {
+            JOptionPane.showMessageDialog(null, "File not found", "ERROR", JOptionPane.ERROR_MESSAGE);
+        } catch (IOException ex) {
+            JOptionPane.showMessageDialog(null, "Cannot save to file", "ERROR", JOptionPane.ERROR_MESSAGE);
+            System.out.print(ex);
+        } catch (Exception ex) {
+            System.out.print(ex);
+        }
+    }
+
     public String formatList() {
         String outputStr = "";
         for (int i = 0; i < labList.size(); ++i) {
-            outputStr += (i + 1) + ". " + labList.get(i);
+            outputStr += labList.get(i);
         }
         return outputStr;
     }
+    
+    public List<Lab> getLab(){
+        return labList;
+    }
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton addbtn;

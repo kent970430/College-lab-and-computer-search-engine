@@ -4,3 +4,4 @@ B103,B,1,Java and networking,20
 B201,B,2,Data Structure,20
 B202,B,2,Gaming,20
 B203,B,2,Networking,20
+104,B,1,Data Structure,30
